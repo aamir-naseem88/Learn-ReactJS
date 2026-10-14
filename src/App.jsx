@@ -13,6 +13,7 @@ import UsestateAsProps from "./UsestateAsProps";
 import { useState } from "react";
 import PropsChildern from "./PropsChildern";
 import OnChangeEvent from "./OnChangeEvent";
+import FormHandling from "./FormHandling";
 
 function App() {
   // using variables as props
@@ -90,7 +91,8 @@ function App() {
         <h4 className="text-2xl text-green-500">Student Email: fatima@ymail.com</h4>
         <h4 className="text-2xl text-green-500">Marital Status: Single</h4>
        </PropsChildern> */}
-       <OnChangeEvent />
+       {/* <OnChangeEvent /> */}
+       {/* <FormHandling /> */}
 
       </div>
     </>

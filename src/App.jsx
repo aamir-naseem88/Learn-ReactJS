@@ -13,10 +13,7 @@ import UsestateAsProps from "./UsestateAsProps";
 import { useState } from "react";
 import PropsChildern from "./PropsChildern";
 import OnChangeEvent from "./OnChangeEvent";
-<<<<<<< HEAD
-=======
 import SpredOperator from "./SpredOperator";
->>>>>>> 74d5da439f943565ee287530f7e5322603488210
 import FormHandling from "./FormHandling";
 import PrintArrayTables from "./PrintArrayTables";
 

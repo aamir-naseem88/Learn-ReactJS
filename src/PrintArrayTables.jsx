@@ -11,11 +11,7 @@ console.log(users);
   return (
     <div>
         <h2>Array Data into tables</h2>
-        {
-            users.map((user)=>(
-              <h2>{user.id}</h2>
-            ))
-        }
+       
     </div>
   )
 }

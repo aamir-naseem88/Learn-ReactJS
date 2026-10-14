@@ -97,7 +97,8 @@ function App() {
        {/* <FormHandling /> */}
        {/* <SpredOperator /> */}
        {/* <FormHandling /> */}
-       <PrintArrayTables />
+       {/* <PrintArrayTables /> */}
+       <h1>hi</h1>
 
       </div>
     </>

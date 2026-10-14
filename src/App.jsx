@@ -18,6 +18,7 @@ import OnChangeEvent from "./OnChangeEvent";
 import SpredOperator from "./SpredOperator";
 >>>>>>> 74d5da439f943565ee287530f7e5322603488210
 import FormHandling from "./FormHandling";
+import PrintArrayTables from "./PrintArrayTables";
 
 function App() {
   // using variables as props
@@ -96,12 +97,10 @@ function App() {
         <h4 className="text-2xl text-green-500">Marital Status: Single</h4>
        </PropsChildern> */}
        {/* <OnChangeEvent /> */}
-<<<<<<< HEAD
        {/* <FormHandling /> */}
-=======
        {/* <SpredOperator /> */}
-       <FormHandling />
->>>>>>> 74d5da439f943565ee287530f7e5322603488210
+       {/* <FormHandling /> */}
+       <PrintArrayTables />
 
       </div>
     </>

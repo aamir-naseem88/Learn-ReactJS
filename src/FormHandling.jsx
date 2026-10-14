@@ -19,10 +19,8 @@ function FormHandling() {
       setHobbies([...hobbies.filter((item) => item != event.target.value)]);
     }
   }
-=======
   // for user gender
   const [grade, setGrade] = useState("");
->>>>>>> 74d5da439f943565ee287530f7e5322603488210
 
   return (
     <div>
@@ -147,12 +145,10 @@ function FormHandling() {
         >
           Reset
         </button>
-=======
         <br /><br />
         <label htmlFor="hobbies" className="mb-2">Hobbies</label>
         <input type="checkbox" />
         <button className="bg-green-500 px-4 py-2 text-bold rounded hover:bg-green-600 text-white cursor-pointer">Submit</button>
->>>>>>> 74d5da439f943565ee287530f7e5322603488210
       </div>
 
       <div>

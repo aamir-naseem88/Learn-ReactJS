@@ -7,6 +7,7 @@ function FormHandling() {
   const [phone, setPhone] = useState("");
   // for user gender
   const [gender, setGender] = useState("");
+<<<<<<< HEAD
   // for user grade
   const [grade, setGrade] = useState("");
   // for user hobbies
@@ -19,6 +20,10 @@ function FormHandling() {
       setHobbies([...hobbies.filter((item) => item != event.target.value)]);
     }
   }
+=======
+  // for user gender
+  const [grade, setGrade] = useState("");
+>>>>>>> 74d5da439f943565ee287530f7e5322603488210
 
   return (
     <div>
@@ -30,17 +35,24 @@ function FormHandling() {
         <input
           className="mb-2 border p-2 rounded"
           type="text"
+<<<<<<< HEAD
           placeholder="Enter name"
           value={user}
           onChange={(event) => setUser(event.target.value)}
         />
         <br />
         <br />
+=======
+          placeholder="Enter name" value={user} onChange={(event)=> setUser(event.target.value)}
+        />
+        <br /><br />
+>>>>>>> 74d5da439f943565ee287530f7e5322603488210
 
         {/* phone */}
         <input
           className="mb-2 border p-2 rounded"
           type="tel"
+<<<<<<< HEAD
           placeholder="Enter phone"
           value={phone}
           onChange={(event) => setPhone(event.target.value)}
@@ -79,12 +91,32 @@ function FormHandling() {
           Grade
         </label>
         <select name="grade" id="grade" defaultValue="1st" onChange={(event)=> setGrade(event.target.value)} className="mb-2 border p-2 rounded">
+=======
+          placeholder="Enter phone" value={phone} onChange={(event)=> setPhone(event.target.value)}
+        />
+        <br /><br />
+
+        {/* gender */}
+        
+        <input className="mb-2 border p-2 rounded" type="radio" id="Male" value={gender} onChange={(event)=> setGender(event.target.value)}/>
+        <label htmlFor="Male" className="mr-5">Male</label>
+
+        
+        <input className="mb-2 border p-2 rounded" type="radio" id="Female" />
+        <label htmlFor="Male">Female</label>
+        <br /><br />
+
+        {/* grade */}
+        <label htmlFor="grade" className="mr-5">Grade</label>
+        <select name="grade" id="grade" className="mb-2 border p-2 rounded">
+>>>>>>> 74d5da439f943565ee287530f7e5322603488210
           <option value="1st">1st</option>
           <option value="2nd">2nd</option>
           <option value="3rd">3rd</option>
           <option value="4th">4th</option>
           <option value="5th">5th</option>
         </select>
+<<<<<<< HEAD
         <br />
         <br />
 
@@ -123,6 +155,12 @@ function FormHandling() {
         >
           Reset
         </button>
+=======
+        <br /><br />
+        <label htmlFor="hobbies" className="mb-2">Hobbies</label>
+        <input type="checkbox" />
+        <button className="bg-green-500 px-4 py-2 text-bold rounded hover:bg-green-600 text-white cursor-pointer">Submit</button>
+>>>>>>> 74d5da439f943565ee287530f7e5322603488210
       </div>
 
       <div>
@@ -130,8 +168,12 @@ function FormHandling() {
         <h2>User Name: {user}</h2>
         <h2>User Phone: {phone}</h2>
         <h2>User Gender: {gender}</h2>
+<<<<<<< HEAD
         <h2>User Grade: {grade}</h2>
         <h2>User Hobbies: {hobbies.toString()}</h2>
+=======
+        <h2>User Grader: {grade}</h2>
+>>>>>>> 74d5da439f943565ee287530f7e5322603488210
       </div>
     </div>
   );

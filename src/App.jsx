@@ -16,6 +16,7 @@ import OnChangeEvent from "./OnChangeEvent";
 import SpredOperator from "./SpredOperator";
 import FormHandling from "./FormHandling";
 import PrintArrayTables from "./PrintArrayTables";
+import UseEffectHook from "./UseEffectHook";
 
 function App() {
   // using variables as props
@@ -98,8 +99,7 @@ function App() {
        {/* <SpredOperator /> */}
        {/* <FormHandling /> */}
        {/* <PrintArrayTables /> */}
-       <h1>hi</h1>
-
+       {/* <UseEffectHook /> */}
       </div>
     </>
   );

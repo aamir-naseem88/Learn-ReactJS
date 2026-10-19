@@ -17,6 +17,10 @@ import SpredOperator from "./SpredOperator";
 import FormHandling from "./FormHandling";
 import PrintArrayTables from "./PrintArrayTables";
 import UseEffectHook from "./UseEffectHook";
+import DateInReact from "./DateInReact";
+import DigitalClock from "./DigitalClock";
+import DigitalClockDropdown from "./DigitalClockDropdown";
+import LightDarkTheme from "./LightDarkTheme";
 
 function App() {
   // using variables as props
@@ -100,6 +104,9 @@ function App() {
        {/* <FormHandling /> */}
        {/* <PrintArrayTables /> */}
        {/* <UseEffectHook /> */}
+       {/* <DateInReact /> */}
+       {/* <DigitalClockDropdown /> */}
+       {/* <LightDarkTheme /> */}
       </div>
     </>
   );

@@ -21,6 +21,7 @@ import DateInReact from "./DateInReact";
 import DigitalClock from "./DigitalClock";
 import DigitalClockDropdown from "./DigitalClockDropdown";
 import LightDarkTheme from "./LightDarkTheme";
+import ColorToggle from "./ColorToggle";
 
 function App() {
   // using variables as props
@@ -107,6 +108,7 @@ function App() {
        {/* <DateInReact /> */}
        {/* <DigitalClockDropdown /> */}
        {/* <LightDarkTheme /> */}
+       {/* <ColorToggle /> */}
       </div>
     </>
   );

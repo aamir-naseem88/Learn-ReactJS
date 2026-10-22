@@ -22,6 +22,16 @@ import DigitalClock from "./DigitalClock";
 import DigitalClockDropdown from "./DigitalClockDropdown";
 import LightDarkTheme from "./LightDarkTheme";
 import ColorToggle from "./ColorToggle";
+import ExternalCSS from "./ExternalCSS";
+import UsingModules from "./UsingModules";
+import StyledComponets from "./StyledComponets";
+import UseRef from "./UseRef";
+import UncontrolledComponents from "./UncontrolledComponents";
+import UncontrollComUseRef from "./UncontrollComUseRef";
+import FunctionsProps from "./FunctionsProps";
+import ForwarRefPrarent from "./ForwarRefPrarent";
+import UseFormStatus from "./UseFormStatus";
+import UseTransition from "./UseTransition";
 
 function App() {
   // using variables as props
@@ -70,7 +80,17 @@ function App() {
   // ];
 // state as props example
 // const[empName, setEmpName] = useState("Fatima Batool");
-  return (
+
+// Functions as props example
+// function fun1(name) {
+//     alert(name);
+  // }
+
+  // function fun2() {
+  //   alert("i am fun2");
+  // }
+
+return (
     <>
       <div className="max-w-[1200px] mx-auto">
         <h1 className="text-5xl text-bold text-center p-2 bg-green-200">
@@ -109,6 +129,16 @@ function App() {
        {/* <DigitalClockDropdown /> */}
        {/* <LightDarkTheme /> */}
        {/* <ColorToggle /> */}
+       {/* <ExternalCSS /> */}
+       {/* <UsingModules /> */}
+       {/* <StyledComponets /> */}
+       {/* <UseRef /> */}
+       {/* <UncontrolledComponents /> */}
+       {/* <UncontrollComUseRef /> */}
+       {/* <FunctionsProps fun1={fun1} name="Fatima Batool" /> */}
+        {/* <ForwarRefPrarent /> */}
+        {/* <UseFormStatus /> */}
+        <UseTransition />
       </div>
     </>
   );

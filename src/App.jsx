@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom';
 import FirstComponent from "./FirstComponent";
 import JsTopics from "./JsTopics";
 import ImportExport, { InnerComponent } from "./ImportExport";
@@ -32,6 +33,13 @@ import FunctionsProps from "./FunctionsProps";
 import ForwarRefPrarent from "./ForwarRefPrarent";
 import UseFormStatus from "./UseFormStatus";
 import UseTransition from "./UseTransition";
+import DerivedStates from "./DerivedStates";
+import LiftingStateParen from "./LiftingStateParen";
+import About from './About';
+import Home from './Home';
+import Contact from './Contact';
+import Services from './Services';
+import PropsFullExample from './PropsFullExample';
 
 function App() {
   // using variables as props
@@ -90,6 +98,28 @@ function App() {
   //   alert("i am fun2");
   // }
 
+  // Sending props as variables in child component
+  // let nameVar = "Fatima"
+
+  // sending array of objects
+  // const students = [
+  //   {id:1, name:"Fatima"},
+  //   {id:2, name:"Zainab"},
+  //   {id:3, name:"Ayesha"},
+  //   {id:4, name:"Haleema"}
+  // ]
+
+// Receiving data from api
+
+// const [post, setPost] = useState([]);
+
+// async function getData(){
+//   const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+//   const data = await response.json();
+//   setPost(data);
+// }
+
+
 return (
     <>
       <div className="max-w-[1200px] mx-auto">
@@ -138,7 +168,19 @@ return (
        {/* <FunctionsProps fun1={fun1} name="Fatima Batool" /> */}
         {/* <ForwarRefPrarent /> */}
         {/* <UseFormStatus /> */}
-        <UseTransition />
+        {/* <UseTransition /> */}
+        {/* <DerivedStates /> */}
+        {/* <LiftingStateParen /> */}
+        {/* <AsyncAwaitInJs /> */} 
+        {/* Routes */}
+        {/* <Routes>
+        <Route path='/' element={<Home />} /> 
+        <Route path='/about' element={<About />} /> 
+        <Route path='/contact' element={<Contact />} /> 
+        <Route path='/services' element={<Services />} /> 
+        </Routes>               */}
+        <PropsFullExample /*user={nameVar}*/ /*myArray={students}*/ /*posts={post}*/ />
+        {/* <button onClick={getData}>Click</button> */}
       </div>
     </>
   );
